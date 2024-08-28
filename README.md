@@ -45,15 +45,17 @@ This repository contains the backend code for the **Blog Application** project. 
 ```bash
 npm install
 
-3. **Create a .env file:**
 
-   ```bash
+3. **Create a `.env` file:**
+
+   ```plaintext
    PORT=4000
    MONGO_URI=your_mongodb_uri
    JWT_SECRET=your_jwt_secret
    CLOUDINARY_CLOUD_NAME=your_cloud_name
    CLOUDINARY_API_KEY=your_api_key
    CLOUDINARY_API_SECRET=your_api_secret
+
 
 
 4. **Start the server:**
