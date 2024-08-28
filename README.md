@@ -13,12 +13,12 @@ This repository contains the backend code for the **Blog Application** project. 
 ## Technologies Used
 
 - **Node.js**: Runtime environment for executing JavaScript on the server.
-- **Express.js**: Framework for building APIs and handling server-side logic.
-- **MongoDB**: NoSQL database for storing and managing application data.
+- **Express.js**: Framework for building the API and handling server-side logic.
+- **MongoDB**: NoSQL database for managing and storing data.
 - **Mongoose**: ODM for MongoDB, providing schema-based solutions.
 - **JWT (JSON Web Tokens)**: For secure user authentication.
 - **bcrypt**: For encrypting user passwords.
-- **Cloudinary**: For managing and storing blog images.
+- **Cloudinary**: For managing and storing images.
 - **dotenv**: For environment variable management.
 - **Validator**: For validating data before processing.
 
@@ -35,18 +35,17 @@ This repository contains the backend code for the **Blog Application** project. 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/princeessjay/Blog_Application_Backend.git
-
-   cd Blog_Application_Backend
-
-
+   git clone https://github.com/princeessjay/HMS_BACKEND_DEPLOYMENT.git
+   
+   cd HMS_BACKEND_DEPLOYMENT
+   
 2. **Install dependencies:**
 
-```bash
-npm install
+   ```bash
+   npm install
 
+3. **Create a .env file:**
 
-3. **Create a `.env` file:**
    ```bash
    PORT=4000
    MONGO_URI=your_mongodb_uri
@@ -55,20 +54,18 @@ npm install
    CLOUDINARY_API_KEY=your_api_key
    CLOUDINARY_API_SECRET=your_api_secret
 
-
-
 4. **Start the server:**
 
-```bash
-npm run dev
+   ```bash
+   npm run dev
+   
+5. **Deployment**
 
-5.Deployment:
-
-```bash
-npm run build
+   ```bash
+   npm run build
 
 # License
-Licensed under the [MIT license]().
+Licensed under the [MIT license](https://github.com/princeessjay/BLOG_BACKEND_DEPLOYMENT/blob/main/LICENSE.md).
 
 Fun Fact
 Lines of code: 5096 😆😆😆😆
