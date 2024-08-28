@@ -35,9 +35,9 @@ This repository contains the backend code for the **Blog Application** project. 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/princeessjay/HMS_BACKEND_DEPLOYMENT.git
+   git clone https://github.com/princeessjay/BLOG_BACKEND_DEPLOYMENT.git
    
-   cd HMS_BACKEND_DEPLOYMENT
+   cd BLOG_BACKEND_DEPLOYMENT
    
 2. **Install dependencies:**
 
