@@ -67,6 +67,6 @@ This repository contains the backend code for the **Blog Application** project. 
 # License
 Licensed under the [MIT license](https://github.com/princeessjay/BLOG_BACKEND_DEPLOYMENT/blob/main/LICENSE.md).This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Fun Fact
+# Fun Fact
 Lines of code: 5096 😆😆😆😆
 
