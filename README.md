@@ -47,8 +47,7 @@ npm install
 
 
 3. **Create a `.env` file:**
-
-   ```plaintext
+   ```bash
    PORT=4000
    MONGO_URI=your_mongodb_uri
    JWT_SECRET=your_jwt_secret
