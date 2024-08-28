@@ -1,4 +1,4 @@
-#Blog Application - Backend
+# Blog Application - Backend
 
 This repository contains the backend code for the **Blog Application** project. The backend manages API requests, data handling, and ensures secure communication between the frontend and the database, enabling features like user authentication, blog creation, and newsletter management.
 
@@ -25,19 +25,20 @@ This repository contains the backend code for the **Blog Application** project. 
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js and npm/yarn installed on your local machine.
 - MongoDB instance or cluster for database management.
 - Cloudinary account for managing images (optional but recommended).
-- 
+
 ### Installation
 
 1. **Clone the repository:**
 
-```bash
-Copy code
-git clone https://github.com/princeessjay/Blog_Application_Backend.git
+   ```bash
+   git clone https://github.com/princeessjay/Blog_Application_Backend.git
 
-cd Blog_Application_Backend
+   cd Blog_Application_Backend
+
 
 2. **Install dependencies:**
 
@@ -46,13 +47,14 @@ npm install
 
 3. **Create a .env file:**
 
-```bash
-PORT=4000
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
+   ```bash
+   PORT=4000
+   MONGO_URI=your_mongodb_uri
+   JWT_SECRET=your_jwt_secret
+   CLOUDINARY_CLOUD_NAME=your_cloud_name
+   CLOUDINARY_API_KEY=your_api_key
+   CLOUDINARY_API_SECRET=your_api_secret
+
 
 4. **Start the server:**
 
